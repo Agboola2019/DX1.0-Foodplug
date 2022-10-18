@@ -7,6 +7,11 @@
 .nau-desktop {
               display: none;
 }
+
+.header-banner-section {
+padding: 80px 0 30px 0;
+background-position: center;
+}
    
 .header-text-container {
               min-width: 100%;
@@ -14,7 +19,18 @@
               
 }
 
+.aboutus-container {
+              justify-content: center;
+}
 
+.about-text-holder {
+              min-width: 100%;
+}
+
+.about-image-holder {
+              min-width: 95%;
+              margin: 20px 0;
+}
 
 
 

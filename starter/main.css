@@ -13,6 +13,10 @@
               ;
 }
 
+html {
+              scroll-behavior: smooth;
+}
+
 body {
               font-family: "custom-lato", sans-serif;
 }
@@ -198,6 +202,10 @@ border: 2px solid transparent;
               padding: 10px 30px;
               align-items: center;
               background: var(--main-color);
+              position: fixed;
+              width: 100%;
+              top: 0;
+              left: 0;
 
 }
 
@@ -319,6 +327,8 @@ border: 2px solid transparent;
 .aboutus-section {
               border: 3px solid tomato;
               width: 90%;
+              height: 100%;
+              /* height: 450px; */
               margin: 0 auto;
 }
 
@@ -328,7 +338,7 @@ border: 2px solid transparent;
               display: flex;
               justify-content: space-between;
               padding: 30px 0;
-              flex-wrap: wrap;
+              
 }
 
 .about-image-holder {
@@ -337,7 +347,6 @@ border: 2px solid transparent;
               height: 350px;
               border-radius: 25px;
               overflow: hidden;
-              min-width: 350px;
 }
 
 .about-image-holder img {
@@ -349,8 +358,7 @@ border: 2px solid transparent;
 .about-text-holder {
               border: 3px solid blue;
               width: 48%;
-              min-height: 350px;
-              min-width: 350px;
+              min-height: 350px
 }
 
 .about-text-holder h2 {
@@ -359,7 +367,6 @@ border: 2px solid transparent;
               border-right: 5px solid var(--main-color);
               color: var(--main-color);
               padding: 20px;
-              font-size: 27px;
 }
 
 .about-text-holder p {
@@ -424,4 +431,119 @@ border: 2px solid transparent;
 header,main {
               max-width: 1500px;
               margin: 0 auto;
+}
+
+/* Explore foods section starts here */
+
+.explorefoods {
+              border: 3px solid black;
+              /* height: 450px; */
+              width: 90%;
+              margin: 0 auto;
+              border-bottom: 50px solid var(--main-color);
+              padding: 30px 0;
+}
+
+.explorefoods-container {
+              /* border: 3px solid tomato; */
+              padding: 15px;
+              display: flex;
+              justify-content: space-evenly;
+              flex-wrap: wrap;
+}
+
+.explorefoods h2 {
+text-align: center;
+}
+
+.explorefoods-p {
+              padding: 0 20px;
+              margin: 15px;
+}
+
+.explorefoods-card {
+              width: 30%;
+              min-width: 250px;
+              /* border: 3px solid purple; */
+}
+
+.explorefoods-card-imageholder {
+              /* border: 3px solid black; */
+              height: 200px;
+              overflow: hidden;
+              border-top-right-radius: 25px;
+              border-top-left-radius: 25px;
+}
+
+.explorefoods-card-imageholder img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+}
+
+.explorefoods-card-textholder {
+              /* border: 3px solid red; */
+}
+
+.foodcard-title {
+              font-weight: bolder;
+              display: block;
+              margin: 10px 0;
+}
+
+.foodcard-time {
+              display: block;
+              margin: 8px 0;
+}
+
+.foodcard-price {
+              margin: 5px 0;
+              border-bottom: 0.5px solid var(--light-text-color);
+              padding: 5px;
+}
+
+.foodcard-price span {
+              color: var(--text-color);
+              text-decoration: line-through;
+}
+
+
+/* FAQ section starts here */
+
+.faq {
+  border: 3px solid tomato;
+              width: 90%;
+              margin: 0 auto;
+              padding: 30px 0;
+}
+
+.faq h2 {
+text-align: center;
+margin-bottom: 15px;
+}
+
+.faq-item-title {
+              margin: 10px 0;
+              display: block;
+              color: var(--main-color-dark);
+              font-weight: bolder;
+              font-size: 20px;
+}
+
+.faq-item-title i {
+              color: var(--main-color);
+}
+
+.faq-container {
+              border: 3px solid black;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: space-between;
+}
+
+.faq-items {
+              /* border: 3px solid red; */
+              width: 49%;
+              min-width: 350px;
+              margin: 15px 0;
 }

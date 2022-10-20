@@ -16,8 +16,9 @@ background-position: center;
 .header-text-container {
               min-width: 100%;
 }   
+/* head section ends here */
 
-
+/* about us section starts here */
 
 .aboutus-container {
               justify-content: center;
@@ -40,9 +41,52 @@ background-position: center;
               min-width: 100%;
 }
 
+/* FAQ section ends here */
 
+/* CTA section starts here */
 
-
-
-              
+.cta-showcase {
+              flex-direction: column;
+              text-align: center;
+              padding: 0 20px;
 }
+
+/* FAQ section ends here */
+
+.cta-notice {
+              padding: 30px 20px;
+}   
+
+/* FAQ section ends here */
+
+/* Footer section starts here */
+
+footer {
+              flex-direction: column;
+              padding: 20px;
+              text-align: center;
+}
+.footer-icon-holder {
+              margin: 15px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
